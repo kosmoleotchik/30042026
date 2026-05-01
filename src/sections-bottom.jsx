@@ -190,6 +190,10 @@ function Footer() {
               <div className="footer__row footer__row--lg"><MIcon name="mail" size={26}/><a href="mailto:rstrelkov@inbox.ru" className="email">rstrelkov@inbox.ru</a></div>
               <div style={{color:'var(--footer-ink-muted)', fontSize:13, marginTop: 4}}>Режим работы: 12:00-20:00, Пн-Пт.</div>
               <div className="footer__socials">
+                <a className="footer__social" href="https://wa.me/79266100903"><span className="icon"><svg width="22" height="22" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M16 2C8.3 2 2 8.3 2 16c0 2.8.8 5.4 2.3 7.6L2 30l6.6-2.2C10.7 29.3 13.3 30 16 30c7.7 0 14-6.3 14-14S23.7 2 16 2z" fill="#25D366"/>
+  <path d="M23.5 20.3c-.3-.2-1.7-.8-2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.5-1.6-.9-.8-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.7.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.6 0-.2-.7-1.7-1-2.3-.3-.6-.6-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.1 1-1.1 2.5s1.1 2.9 1.3 3.1c.2.2 2.2 3.4 5.4 4.7.8.3 1.4.5 1.9.6.8.3 1.5.2 2.1.1.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.3.2-1.4 0-.1-.2-.2-.5-.4z" fill="white"/>
+</svg></span>WhatsApp</a>
                 <a className="footer__social" href="https://wa.me/79266100903"><span className="icon"><IconWhatsApp size={22}/></span>WhatsApp</a>
                 <a className="footer__social" href="https://t.me/IT_Expert_strexpit"><span className="icon"><IconTelegram size={22}/></span>Telegram</a>
                 <a className="footer__social" href="#"><span className="icon"><IconMax size={22}/></span>MAX</a>
