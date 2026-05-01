@@ -6,10 +6,9 @@ function Expert({ onOpenLightbox }) {
 
   const slides = [
     { type: 'img', src: 'assets/certificate-diploma.jpg', alt: 'Диплом специалиста' },
-    { type: 'ph', label: 'Сертификат / Повышение квалификации' },
-    { type: 'ph', label: 'Свидетельство о членстве в СРО' },
-    { type: 'ph', label: 'Удостоверение судебного эксперта' },
-    { type: 'ph', label: 'Благодарственное письмо' },
+    { type: 'img', src: 'assets/diplom-perepodgotovka.jpg', alt: 'Диплом о профессиональной переподготовке' },
+    { type: 'img', src: 'assets/diplom-perepodgotovka2.jpg', alt: 'Диплом о профессиональной переподготовке' },
+    { type: 'img', src: 'assets/sertificate.jpg', alt: 'Сертификат' },
   ];
   const total = slides.length;
   const go = (i) => setIdx((i + total) % total);
