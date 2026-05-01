@@ -190,8 +190,8 @@ function Footer() {
               <div className="footer__row footer__row--lg"><MIcon name="mail" size={26}/><a href="mailto:rstrelkov@inbox.ru" className="email">rstrelkov@inbox.ru</a></div>
               <div style={{color:'var(--footer-ink-muted)', fontSize:13, marginTop: 4}}>Режим работы: 12:00-20:00, Пн-Пт.</div>
               <div className="footer__socials">
-                <a className="footer__social" href="#"><span className="icon"><IconWhatsApp size={22}/></span>WhatsApp</a>
-                <a className="footer__social" href="#"><span className="icon"><IconTelegram size={22}/></span>Telegram</a>
+                <a className="footer__social" href="https://wa.me/79266100903"><span className="icon"><IconWhatsApp size={22}/></span>WhatsApp</a>
+                <a className="footer__social" href="https://t.me/IT_Expert_strexpit"><span className="icon"><IconTelegram size={22}/></span>Telegram</a>
                 <a className="footer__social" href="#"><span className="icon"><IconMax size={22}/></span>MAX</a>
               </div>
             </div>
