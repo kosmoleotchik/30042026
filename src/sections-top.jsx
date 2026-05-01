@@ -148,7 +148,7 @@ function Conclusions() {
     <section className="section section--soft" id="conclusions">
       <div className="container">
         <div className="section-title">
-          <h2>Заключения, подготавливаемые<br/>по результатам исследований</h2>
+          <h2>Виды заключений</h2>
         </div>
         <div className="conclusions__grid">
           {items.map((it, i) => (
@@ -176,7 +176,7 @@ function Helps() {
     <section className="section">
       <div className="container">
         <div className="section-title">
-          <h2>Заключение поможет</h2>
+          <h2>Решаемые задачи</h2>
         </div>
         <div className="helps__grid">
           {cols.map((c, i) => (
