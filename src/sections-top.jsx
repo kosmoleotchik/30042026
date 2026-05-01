@@ -76,8 +76,8 @@ function Header() {
           <a href="mailto:rstrelkov@inbox.ru" className="inline-link">rstrelkov@inbox.ru</a>
           <strong>+7 (999) 962-90-15</strong>
           <div className="header__socials" style={{display: 'flex'}}>
-            <a href="#" aria-label="WhatsApp"><img src="assets/icon-whatsapp.svg" alt="" width="20" height="20"/></a>
-            <a href="#" aria-label="Telegram"><img src="assets/icon-telegram.svg" alt="" width="20" height="20"/></a>
+            <a href="https://wa.me/79266100903" aria-label="WhatsApp"><img src="assets/icon-whatsapp.svg" alt="" width="20" height="20"/></a>
+            <a href="https://t.me/IT_Expert_strexpit" aria-label="Telegram"><img src="assets/icon-telegram.svg" alt="" width="20" height="20"/></a>
             <a href="#" aria-label="MAX"><img src="assets/icon-max.svg" alt="" width="20" height="20"/></a>
           </div>
         </div>
