@@ -28,7 +28,7 @@ function Header() {
     <React.Fragment>
       <header className={`header ${scrolled ? 'header--scrolled' : ''}`}>
         <div className="header__inner">
-          <a href="#top" className="brand">
+          <a href="index.html#top" className="brand">
             <span className="brand__caption">Экспертная практика</span>
             <span className="brand__name">Стрелков</span>
           </a>
