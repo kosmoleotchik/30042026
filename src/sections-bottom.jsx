@@ -167,7 +167,7 @@ function Footer() {
       <div className="container">
         <div className="footer__grid">
           <div className="footer__brand-col">
-            <div className="footer__brand">Экспертная практика<br/>Стрелкова</div>
+            <div className="footer__brand">Экспертная практика<br/>Стрелков</div>
           </div>
           <div>
             <h5>Меню</h5>
