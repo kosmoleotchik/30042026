@@ -6,7 +6,7 @@ const NAV_ITEMS = [
   { href: 'index.html#expert', label: 'Эксперт' },
   { href: 'index.html#objects', label: 'Объекты' },
   { href: 'pricing.html', label: 'Стоимость' },
-  { href: '#contact', label: 'Контакты' },
+  { href: 'index.html#contact', label: 'Контакты' },
 ];
 
 function Header() {
@@ -49,8 +49,8 @@ function Header() {
           </a>
 
           <div className="header__socials">
-            <a href="#" aria-label="WhatsApp"><img src="assets/icon-whatsapp.svg" alt="" width="20" height="20"/></a>
-            <a href="#" aria-label="Telegram"><img src="assets/icon-telegram.svg" alt="" width="20" height="20"/></a>
+            <a href="https://wa.me/79266100903" aria-label="WhatsApp"><img src="assets/icon-whatsapp.svg" alt="" width="20" height="20"/></a>
+            <a href="https://t.me/IT_Expert_strexpit" aria-label="Telegram"><img src="assets/icon-telegram.svg" alt="" width="20" height="20"/></a>
             <a href="#" aria-label="MAX"><img src="assets/icon-max.svg" alt="" width="20" height="20"/></a>
           </div>
 
