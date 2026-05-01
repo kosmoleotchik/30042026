@@ -172,15 +172,15 @@ function Footer() {
           <div>
             <h5>Меню</h5>
             <ul className="footer__list">
-              <li><a href="#conclusions">Заключения</a></li>
-              <li><a href="#expert">Эксперт</a></li>
-              <li><a href="#advantages">Преимущества</a></li>
-              <li><a href="#process">Этапы</a></li>
-              <li><a href="#objects">Объекты</a></li>
-              <li><a href="#examples">Примеры</a></li>
+              <li><a href="index.html#conclusions">Заключения</a></li>
+              <li><a href="index.html#expert">Эксперт</a></li>
+              <li><a href="index.html#advantages">Преимущества</a></li>
+              <li><a href="index.html#process">Этапы</a></li>
+              <li><a href="index.html#objects">Объекты</a></li>
+              <li><a href="index.html#examples">Примеры</a></li>
               <li><a href="pricing.html">Стоимость</a></li>
-              <li><a href="#faq">Вопросы и ответы</a></li>
-              <li><a href="#contact">Контакты</a></li>
+              <li><a href="index.html#faq">Вопросы и ответы</a></li>
+              <li><a href="index.html#contact">Контакты</a></li>
             </ul>
           </div>
           <div>
