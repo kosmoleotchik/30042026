@@ -164,7 +164,7 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: var(--accent, #4aa3ff);
+  background: var(--accent, #475569);
 }
 .pricing-note__card .muted { color: rgba(248, 250, 252, 0.7); font-size: 14px; line-height: 1.6; }
 
