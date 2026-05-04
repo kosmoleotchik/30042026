@@ -93,7 +93,7 @@ function Hero({ variant = 'default' }) {
         <div className="hero__grid">
           <div className="hero__copy">
             <h1>Компьютерно-<br/>техническая<br/>экспертиза</h1>
-            <p>Выполнение независимой досудебной и судебной экспертизы любой сложности, рецензирование.</p>
+            <p>Исследование цифровых данных и подготовка заключений для судебных и досудебных процессов</p>
             <a href="#contact" className="btn btn--primary">Получить консультацию</a>
           </div>
           <div className="hero__image">
