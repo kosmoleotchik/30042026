@@ -148,7 +148,7 @@ function Conclusions() {
     <section className="section section--soft" id="conclusions">
       <div className="container">
         <div className="section-title">
-          <h2>Виды заключений</h2>
+          <h2>Виды экспертных документов</h2>
         </div>
         <div className="conclusions__grid">
           {items.map((it, i) => (
