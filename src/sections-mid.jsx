@@ -184,7 +184,7 @@ function Objects() {
           ))}
         </div>
         <div style={{display: 'flex', justifyContent: 'center'}}>
-          <a href="#contact" className="btn btn--primary">Смотреть все объекты</a>
+          <a href="pricing.html" className="btn btn--primary">Смотреть все объекты</a>
         </div>
       </div>
     </section>
