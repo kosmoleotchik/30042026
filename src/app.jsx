@@ -55,6 +55,7 @@ function App() {
         <Contact/>
       </main>
       <Footer/>
+      <CookieBanner/>
 
       {lightboxSrc && (
         <div className="lightbox" onClick={() => setLightboxSrc(null)}>

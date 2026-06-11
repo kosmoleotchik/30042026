@@ -1042,6 +1042,43 @@ p { margin: 0; }
 .footer__bottom a { color: var(--footer-ink-muted); text-decoration: underline; text-underline-offset: 2px; }
 
 /* =========================================================
+   Cookie Banner
+   ========================================================= */
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 90;
+  background: #fff;
+  border-top: 1px solid var(--line);
+  box-shadow: 0 -4px 24px rgba(15, 23, 42, 0.08);
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 18px 40px;
+}
+.cookie-banner__text {
+  flex: 1;
+  font-size: 13.5px;
+  color: var(--ink-muted);
+  line-height: 1.55;
+}
+.cookie-banner__btn {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+@media (max-width: 640px) {
+  .cookie-banner {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 16px;
+  }
+  .cookie-banner__btn { align-self: stretch; }
+}
+
+/* =========================================================
    Lightbox
    ========================================================= */
 .lightbox {

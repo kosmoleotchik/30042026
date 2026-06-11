@@ -206,4 +206,26 @@ function Footer() {
   );
 }
 
-Object.assign(window, { Examples, FAQ, Contact, Footer });
+function CookieBanner() {
+  const [visible, setVisible] = useState(() => !localStorage.getItem('cookie_consent'));
+
+  const accept = () => {
+    localStorage.setItem('cookie_consent', '1');
+    setVisible(false);
+  };
+
+  if (!visible) return null;
+
+  return (
+    <div className="cookie-banner">
+      <p className="cookie-banner__text">
+        Продолжая использовать сайт, вы соглашаетесь на обработку файлов Cookie и других пользовательских данных, в соответствии с{' '}
+        <a href="privacy.html" className="inline-link">Политикой конфиденциальности</a>.
+        {' '}Вы можете заблокировать использование Cookies сайтом, изменив настройки Вашего браузера.
+      </p>
+      <button className="cookie-banner__btn btn btn--primary" onClick={accept}>Согласен</button>
+    </div>
+  );
+}
+
+Object.assign(window, { Examples, FAQ, Contact, Footer, CookieBanner });
