@@ -11,6 +11,7 @@ function App() {
   const [tweaks, setTweaksState] = useState(TWEAK_DEFAULTS);
   const [tweaksOpen, setTweaksOpen] = useState(false);
   const [lightboxSrc, setLightboxSrc] = useState(null);
+  const [cookieBannerVisible, setCookieBannerVisible] = useState(() => !localStorage.getItem('cookie_consent'));
 
   useEffect(() => {
     document.body.dataset.accent = tweaks.accent;
@@ -55,8 +56,8 @@ function App() {
         <Contact/>
       </main>
       <Footer/>
-      <TelegramFloat/>
-      <CookieBanner/>
+      <TelegramFloat lifted={cookieBannerVisible}/>
+      <CookieBanner onAccept={() => setCookieBannerVisible(false)}/>
 
       {lightboxSrc && (
         <div className="lightbox" onClick={() => setLightboxSrc(null)}>

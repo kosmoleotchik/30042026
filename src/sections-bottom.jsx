@@ -206,11 +206,11 @@ function Footer() {
   );
 }
 
-function TelegramFloat() {
+function TelegramFloat({ lifted }) {
   return (
     <a
       href="https://t.me/IT_Expert_strexpit"
-      className="tg-float"
+      className={`tg-float${lifted ? ' tg-float--lifted' : ''}`}
       aria-label="Написать в Telegram"
       target="_blank"
       rel="noopener noreferrer"
@@ -230,12 +230,13 @@ function TelegramFloat() {
   );
 }
 
-function CookieBanner() {
+function CookieBanner({ onAccept }) {
   const [visible, setVisible] = useState(() => !localStorage.getItem('cookie_consent'));
 
   const accept = () => {
     localStorage.setItem('cookie_consent', '1');
     setVisible(false);
+    if (onAccept) onAccept();
   };
 
   if (!visible) return null;

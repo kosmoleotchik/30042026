@@ -1056,14 +1056,16 @@ p { margin: 0; }
   align-items: center;
   justify-content: center;
   box-shadow: 0 4px 16px rgba(26, 86, 219, 0.4);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, bottom 0.3s ease;
 }
+.tg-float--lifted { bottom: 104px; }
 .tg-float:hover {
   transform: scale(1.1);
   box-shadow: 0 6px 24px rgba(26, 86, 219, 0.55);
 }
 @media (max-width: 640px) {
   .tg-float { bottom: 20px; right: 20px; }
+  .tg-float--lifted { bottom: 176px; }
 }
 
 /* =========================================================
