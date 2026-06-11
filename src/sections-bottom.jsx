@@ -206,6 +206,30 @@ function Footer() {
   );
 }
 
+function TelegramFloat() {
+  return (
+    <a
+      href="https://t.me/IT_Expert_strexpit"
+      className="tg-float"
+      aria-label="Написать в Telegram"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <svg width="57" height="57" viewBox="0 0 57 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M28.0117 56.0233C43.4821 56.0233 56.0233 43.4821 56.0233 28.0117C56.0233 12.5412 43.4821 0 28.0117 0C12.5412 0 0 12.5412 0 28.0117C0 43.4821 12.5412 56.0233 28.0117 56.0233Z" fill="#1A56DB"/>
+        <g clipPath="url(#clip0_tgfloat)">
+          <path d="M27.5466 37.7657L23.9564 32.9584L29.1694 26.569L21.5629 29.7535L17.9727 24.9462L37.9828 19.9869L27.5466 37.7657Z" fill="white"/>
+        </g>
+        <defs>
+          <clipPath id="clip0_tgfloat">
+            <rect width="24" height="24" fill="white" transform="translate(13.1755 23.5364) rotate(-36.7533)"/>
+          </clipPath>
+        </defs>
+      </svg>
+    </a>
+  );
+}
+
 function CookieBanner() {
   const [visible, setVisible] = useState(() => !localStorage.getItem('cookie_consent'));
 
@@ -228,4 +252,4 @@ function CookieBanner() {
   );
 }
 
-Object.assign(window, { Examples, FAQ, Contact, Footer, CookieBanner });
+Object.assign(window, { Examples, FAQ, Contact, Footer, CookieBanner, TelegramFloat });

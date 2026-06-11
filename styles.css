@@ -1042,6 +1042,31 @@ p { margin: 0; }
 .footer__bottom a { color: var(--footer-ink-muted); text-decoration: underline; text-underline-offset: 2px; }
 
 /* =========================================================
+   Telegram Float Button
+   ========================================================= */
+.tg-float {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  z-index: 95;
+  width: 57px;
+  height: 57px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(26, 86, 219, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.tg-float:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 24px rgba(26, 86, 219, 0.55);
+}
+@media (max-width: 640px) {
+  .tg-float { bottom: 20px; right: 20px; }
+}
+
+/* =========================================================
    Cookie Banner
    ========================================================= */
 .cookie-banner {
